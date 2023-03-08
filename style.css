@@ -1,0 +1,15 @@
+body {
+display: grid;
+grid-template-columns: 1fr 5fr;
+}
+.side-bar {
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+.bottom {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
